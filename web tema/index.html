@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pijar Sekolah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Pijar Sekolah</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="home">
+        <img src="pijar.jpg" alt="Gambar Sekolah" />
+        <h2>Kenapa harus PIJAR???</h2>
+        <p>Lengkap dan Mudah Digunakan!</p>
+    </section>
+    
+    <!-- Section About -->
+    <section id="about" class="about">
+        <h2>Tentang Kami</h2>
+        <br>
+        <div class="about-content">
+            <!-- <img src="pijar 2.png" alt="Tentang Kami" /> -->
+            <p>Pijar Sekolah adalah sebuah platform pembelajaran digital terpadu yang mendukung pihak sekolah dalam menciptakan pembelajaran digital yang seru dan menyenangkan. Pijar Sekolah memiliki ribuan konten digital yang menarik, mulai dari Buku Digital Interaktif, Buku Digital, Video Pembelajaran, hingga Laboratorium Maya yang bisa dimanfaatkan oleh semua siswa untuk mendukung mereka dalam belajar di sekolah.</p>
+        </div>
+    </section>
+        
+    <!-- Section Courses -->
+    <section id="courses" class="courses">
+        <div class="course-card">
+            <img src="PIJAR 4.png" alt="Matematika Dasar" />
+            <h3>Bisa Digunakan Siapa Saja!</h3>
+            <p>Pijar Sekolah bisa digunakan untuk semua sekolah di Indonesia, mulai dari sekolah di daerah 3T (Terdepan, Terluar, dan Tertinggal) hingga sekolah Urban. Sehingga Pendidikan di Indonesia akan lebih merata!</p>
+        </div>
+        <div class="course-card">
+            <img src="PIJAR 3.png" alt="Bahasa Indonesia" />
+            <h3>Modul yang Menarik</h3>
+            <p>Berbagai macam modul yang seru dan menarik untuk mendukung siswa hingga pihak sekolah dalam proses belajar mengajar. Mulai dari fitur USBA, Konten Digital, hingga Reporting ada disini!</p>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <h2>Kontak Kami</h2>
+        <p>Jika Anda memiliki pertanyaan, silakan hubungi kami:</p>
+        <br>
+        <form action="javascript:void(0);" onsubmit="submitForm()">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <textarea id="message" name="message" placeholder="Pesan Anda..." required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pijar Sekolah.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

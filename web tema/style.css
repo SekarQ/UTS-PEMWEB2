@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+/* bagian belakang img pijar */
+.home {
+    text-align: center;
+    background-color: #ecf0f1;
+}
+
+.home img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Memberikan jarak di bawah gambar */
+}
+
+.home h2, .home p {
+    text-size: 36px;
+    margin-top: 10px;
+    text-align: left; /* Menyelaraskan teks ke kiri */
+    margin-left: 20px; /* Memberikan jarak dari kiri */
+}
+
+/* bagain background about pijar (tentang kami)  */
+.about, .courses, .contact {
+    background-color: #ecf0f1;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.courses {
+    display: flex;
+    justify-content: space-around;
+}
+
+.course-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
